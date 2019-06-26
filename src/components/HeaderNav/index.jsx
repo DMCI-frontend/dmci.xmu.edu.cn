@@ -8,6 +8,9 @@ const HeaderNav = () => {
       <Menu.Item key="home">
         <Link to="/">首页</Link>
       </Menu.Item>
+      <Menu.Item key="member">
+        <Link to="/member">成员介绍</Link>
+      </Menu.Item>
     </Menu>
   );
 };
