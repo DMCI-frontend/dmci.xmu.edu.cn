@@ -75,7 +75,7 @@ export default {
       img: "12.jpg"
     },
     {
-      name: "陈若兰",
+      name: "汤敏丽",
       email: "未知",
       rank: "2018级博士",
       img: "13.jpg"
