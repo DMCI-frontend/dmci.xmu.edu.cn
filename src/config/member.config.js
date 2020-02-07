@@ -9,6 +9,18 @@ export default {
   ],
   student: [
     {
+      name: "孙楠",
+      email: "未知",
+      rank: "2019级硕士",
+      img: "19.jpeg"
+    },
+    {
+      name: "夏枫",
+      email: "xiafeng1997@qq.com",
+      rank: "2019级硕士",
+      img: "20.jpeg"
+    },
+    {
       name: "赵连敏",
       email: "xiguashuiguo@gmail.com",
       rank: "2018级硕士",
@@ -67,6 +79,12 @@ export default {
       email: "未知",
       rank: "2017级硕士",
       img: "11.jpg"
+    },
+    {
+      name: "林盈来",
+      email: "yllin@stu.xmu.edu.cn",
+      rank: "2017级硕士",
+      img: "18.jpeg"
     },
     {
       name: "左云",

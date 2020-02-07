@@ -5,6 +5,7 @@ import { Layout } from "antd";
 import "./App.css";
 import Home from "./pages/home";
 import Member from "./pages/member";
+import ServerPage from "./pages/server";
 
 const { Header, Content, Footer } = Layout;
 
@@ -19,6 +20,7 @@ function App() {
           <Switch>
             <Route path="/member" component={Member} />
             <Route exact path="/" component={Home} />
+            <Route path="/server" component={ServerPage} />
           </Switch>
         </Content>
         <Footer style={{ textAlign: "center" }}>

@@ -1,6 +1,7 @@
 import React, { Fragment } from "react";
 import { Row, List, Card, Col } from "antd";
 import member from "../../config/member.config";
+import "./index.scss";
 
 const Member = () => (
   <Fragment>
@@ -53,15 +54,13 @@ const Member = () => (
           <Col xs={12} sm={12} md={4} lg={4} xl={4}>
             <Card
               cover={
-                <img
-                  src={require(`../../static/member/${item.img}`)}
-                  alt={item.name}
-                  style={{
-                    maxWidth: "100%",
-                    overflow: "auto",
-                    maxHeight: "100%"
-                  }}
-                />
+                <div className="cover">
+                  <img
+                    src={require(`../../static/member/${item.img}`)}
+                    alt={item.name}
+                    className="cover-img"
+                  />
+                </div>
               }
             >
               <Card.Meta
@@ -90,15 +89,13 @@ const Member = () => (
           <Col xs={12} sm={12} md={4} lg={4} xl={4}>
             <Card
               cover={
-                <img
-                  src={require(`../../static/member/${item.img}`)}
-                  alt={item.name}
-                  style={{
-                    maxWidth: "100%",
-                    overflow: "auto",
-                    maxHeight: "100%"
-                  }}
-                />
+                <div className="cover">
+                  <img
+                    src={require(`../../static/member/${item.img}`)}
+                    alt={item.name}
+                    className="cover-img"
+                  />
+                </div>
               }
             >
               <Card.Meta

@@ -16,9 +16,10 @@ const Home = () => (
       }}
     >
       <Carousel autoplay>
-        {carousel.map(item => (
+        {carousel.map((item, index) => (
           <img
             src={require(`../../static/Carousel/${item.src}`)}
+            key={index}
             alt={item.alt}
             style={{
               maxHeight: "100%",

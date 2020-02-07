@@ -11,6 +11,9 @@ const HeaderNav = () => {
       <Menu.Item key="member">
         <Link to="/member">成员介绍</Link>
       </Menu.Item>
+      <Menu.Item key="server">
+        <Link to="/server">外部服务</Link>
+      </Menu.Item>
     </Menu>
   );
 };
