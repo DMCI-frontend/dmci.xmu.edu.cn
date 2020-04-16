@@ -2,9 +2,13 @@ import React from "react";
 import { Row, Col, List } from "antd";
 import { Link, Route, Switch } from "react-router-dom";
 import Gpu from "./gpu/index";
+import Chrl from "./chrl/index";
 
 const ServerPage = () => {
-  const listData = [{ text: "服务器GPU实时状态", path: "/server/gpu" }];
+  const listData = [
+    { text: "服务器GPU实时状态", path: "/server/gpu" },
+    { text: "陈若兰的药物靶点预测服务", path: "/server/chrl" }
+  ];
   return (
     <div>
       <Row>
@@ -23,6 +27,7 @@ const ServerPage = () => {
         <Col span={18}>
           <Switch>
             <Route path="/server/gpu" component={Gpu} />
+            <Route path="/server/chrl" component={Chrl} />
           </Switch>
         </Col>
       </Row>
